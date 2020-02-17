@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test file
+test*.go
+
+# IDE
+.vscode/*
+.idea/*
+
+# MAC
+.DS_Store
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+config.json
+.idea/Hitnews-App-Api.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+article.sql
+clean-arch.png
+data.json
+g-tech.com
+

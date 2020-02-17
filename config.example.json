@@ -1,0 +1,33 @@
+{
+  "Debug": true,
+  "Log": {
+    "Path": "/var/log/HitNews",
+    "Prefix": "CrawlerMaster_Api",
+    "Description": "Must set write-permission for /var/log/HitNews"
+  },
+  "Server": {
+    "Address": ":1323"
+  },
+  "Context":{
+    "Timeout": 5
+  },
+  "Redis": {
+    "Host": "ip:port",
+    "PoolSize": 10000,
+    "MinIdleConns": 1000
+  },
+  "RabbitMQ" : {
+    "Host" : "18.136.201.129",
+    "Password" : "Hitvn@2020",
+    "Port" : 5672,
+    "UserName" : "hitvn"
+  },
+  "MySql": {
+    "Host": "",
+    "UserName": "",
+    "Password": "",
+    "Database": "",
+    "MaxOpenConnections": 100,
+    "MaxIdleConnections": 100
+  }
+}
